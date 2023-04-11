@@ -7,7 +7,9 @@ body{
 .nav{
     border: 2px solid;
     height: auto; 
-    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px
   }
 
 .Content{
@@ -34,29 +36,52 @@ body{
     flex-grow: 1px;
     width: 60%;
     text-align: left;
+    
    }
 
 .Right{
     border: 2px solid #fed801;
     width: 20%;
-    text-align: left;
+    align-items: center;
 }
 
 .leftimage{
     display: flex;
+    padding-inline: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
 }
 
 .centerimg{
     display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.centerpara{
+    margin-left: 10px;
 }
 
 .navbar{
     display: flex;
-    align-items:end;
-       
+    align-items:center;
+           
 }
 
-.navbar a{
+
+
+.flask{
+    align-items: center;
+    padding-top: 10px;
+}
+
+a{
     text-decoration: none;
-    /* align-content:center; */
+}
+
+.icon{
+    text-align: center;
 }
