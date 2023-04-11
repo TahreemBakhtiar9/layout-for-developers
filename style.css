@@ -1,0 +1,24 @@
+.nav{
+    border: 2px solid;
+    padding-bottom: 30px;
+}
+
+.Content{
+    border: 2px solid #ff0000;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+       
+}
+
+.Left{
+    border: 2px solid #00ff00;
+   }
+
+.Center{
+    border: 2px solid #0000ff;
+   }
+
+.Right{
+    border: 2px solid #fed801;
+}
