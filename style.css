@@ -6,8 +6,9 @@ body{
 
 .nav{
     border: 2px solid;
-    padding-bottom: 30px;
-   }
+    height: auto; 
+    align-content: center;
+  }
 
 .Content{
     border: 2px solid #ff0000;
@@ -47,4 +48,15 @@ body{
 
 .centerimg{
     display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items:end;
+       
+}
+
+.navbar a{
+    text-decoration: none;
+    /* align-content:center; */
 }
